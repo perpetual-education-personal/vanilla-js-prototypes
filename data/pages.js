@@ -8,9 +8,6 @@ pages.landing = `
 		<h1>Landing</h1>
 		
 		<button data-route='menu'>Enter</button>
-
-		<button data-action='decrement'>decrement</button>
-		<button data-action='increment'>increment</button>
 	</section>
 `;
 
@@ -27,9 +24,34 @@ pages.itemDetail = `
 		<h1>Detail</h1>
 
 		${renderItemDetail()}
-
-		<p>${state.getCount()}</p>
 	</section>
 `;
+
+pages.admin = `
+	<section>
+		<h1>Admin</h1>
+		
+		<form name="newItem">
+			<div class='field'>
+				<label>name</label>
+				<input type='text' data-input='name' required />
+			</div>
+
+			<div class='field'>
+				<label>price</label>
+				<input type='text' data-input='price' required />
+			</div>
+
+			<div class='field'>
+				<label>color</label>
+				<input type='text' data-input='color' required />
+			</div>
+
+			<button type='submit' data-action='new'>Add item</button>
+		</form>
+	</section>
+`;
+
+// for some reason - these input required attributes aren't forcing them to be required...
 
 export default pages;
