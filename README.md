@@ -1,6 +1,6 @@
 # Vanilla JS app prototype practice area
 
-These are for fun! You know, it's kinda nice to have some experience trying to build these things without a framework first. Luckily we have things like string templates and es modeles now too.
+These are for fun! You know, it's kinda nice to have some experience trying to build these things without a framework first. Luckily we have things like string templates and es modules now too. Get in there and make stuff. This isn't about best-practices and doing it "right" the first time. Enjoy the exploration. Who knows!, you might come up with a unique angle and build the next even better framework one day.
 
 ## get it going
 
@@ -12,6 +12,8 @@ These are for fun! You know, it's kinda nice to have some experience trying to b
 6. `npm run dev` will start the server
 
 To stop the server, type `control + c`
+
+(note the server will tell you the URL to visit / and you can click it)
 
 ---
 
